@@ -1,13 +1,25 @@
 /*  
     LAYOUT
 */
-header{
+
+.layout-cabecalho {
     height: 60px;
-    border-bottom: 1px solid #cccccc;
+    border-bottom: 1px solid #ccc;
+
+    background-color: #ffffff;
 }
 
-header img {
+.layout-cabecalho img {
     margin-top: 12px;
+}
+
+.layout-cabecalho--home { 
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 .layout-planos {
@@ -15,6 +27,7 @@ header img {
 }
 
 .layout-chamada {
+    margin-top: 60px;
     padding: 80px 0;
 
     background-color: #7ab55c;
