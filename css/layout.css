@@ -4,13 +4,10 @@
 
 .layout-cabecalho {
     height: 60px;
+    line-height: 60px;
     border-bottom: 1px solid #ccc;
 
     background-color: #ffffff;
-}
-
-.layout-cabecalho img {
-    margin-top: 12px;
 }
 
 .layout-cabecalho--home { 
